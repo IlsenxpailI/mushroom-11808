@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>About เห็ด</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai&display=swap" rel="stylesheet">
+</head>
+<body class="playpen-sans-thai">
+
+<button id="toggleButton" class="toggle-button" onclick="toggleMode()">Dark</button>
+
+<div class="head">
+<div class="header">
+<img class="img-head" src="img/baner.png" alt="baner mushroom">
+</div>
+</div>
+
+<div class="navigator">
+<div class="menubar">
+<ul class="ul-menu">
+<li class="li-menu"><a class="active" href="index.html">home</a></li>
+<li class="li-menu"><a href="mushroom.html">ความหมายของเห็ด</a></li>
+<li class="li-menu"><a href="edible.html">เห็ดที่สามารถกินได้</a></li>
+<li class="li-menu"><a href="inedible.html">เห็ดที่ไม่สามารถกินได้</a></li>
+<li class="li-menu"><a href="precau.html">ข้อควรระวังเกี่ยวกับเห็ด</a></li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<p>เห็ด เป็นสิ่งมีชีวิตในอาณาจักรฟังไจ (Fungi) ซึ่งต่างจากพืชและสัตว์โดยสิ้นเชิง เนื่องจากเห็ดไม่มีคลอโรฟิลล์จึงไม่สามารถสังเคราะห์แสงได้เอง เห็ดจึงต้องหาอาหารจากการย่อยสลายสารอินทรีย์ในสิ่งแวดล้อม เช่น ซากพืช ซากสัตว์ หรือบางชนิดอาศัยร่วมกับพืช (แบบพึ่งพาอาศัยหรือสมานความสัมพันธ์)
+เห็ดมีบทบาทสำคัญในระบบนิเวศ เพราะช่วยย่อยสลายสารอินทรีย์ ทำให้สารอาหารถูกหมุนเวียนกลับเข้าสู่ดินและพืชได้อีกครั้ง
+</p>
+<p>โครงสร้างสำคัญของเห็ด
+หมวกเห็ด (Cap): เป็นส่วนที่เห็นชัดเจน มีรูปร่างและสีสันแตกต่างกันไปตามชนิดของเห็ด หมวกเห็ดทำหน้าที่ปกป้องส่วนที่สร้างสปอร์
+ครีบใต้หมวก (Gills): เป็นแผ่นบาง ๆ อยู่ใต้หมวกเห็ด ทำหน้าที่สร้างและปล่อยสปอร์เพื่อขยายพันธุ์
+ก้านเห็ด (Stipe): เป็นเส้นใยที่ยึดหมวกเห็ดกับฐานดิน มีความแข็งแรงและยืดหยุ่นช่วยให้เห็ดตั้งตรง
+โคนก้าน (Volva): เยื่อหุ้มฐานของก้านเห็ดบางชนิด ซึ่งสำคัญในการจำแนกชนิดเห็ด
+เส้นใย (Mycelium): เป็นเส้นใยเล็ก ๆ ที่อยู่ใต้ดินหรือในซากพืช มีหน้าที่ดูดซึมสารอาหารและขยายพันธุ์
+เห็ดบางชนิดมีลักษณะเฉพาะ เช่น มีวงแหวน (Ring) บนก้าน หรือมีกลิ่นพิเศษ ทำให้ช่วยในการจำแนกชนิดได้
+</p>
+<p>รายวิชานี้เหมาะสำหรับผู้ที่สนใจในด้านการเก็บเห็ด การทำอาหารจากเห็ด หรือผู้ที่ต้องการความรู้เพื่อความปลอดภัยในการบริโภคเห็ดป่า รวมทั้งผู้ที่ทำงานด้านเกษตร ป่าไม้ หรือสุขภาพ</p>
+
+<img src="img/โครงสร้างเห็ด.png" alt="baner mushroom" class="center-img">
+</div>
+
+<div class="footer">
+<p>เว็บไซต์นี้จัดทำเพื่อการศึกษา</p>
+<p>&copy; จัดทำโดย นายชัยวุฒิ หม่อมทา 11808 ธท.1/1 วิทยาลัยเทคโนโลยีวานิชบริหารธุรกิจ</p>
+</div>
+
+<script>
+function toggleMode() {
+document.body.classList.toggle("dark-mode");
+var button = document.getElementById("toggleButton");
+if (document.body.classList.contains("dark-mode")) {
+button.textContent = "Bright";
+} else {
+button.textContent = "Dark";
+}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>About เห็ด</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai&display=swap" rel="stylesheet">
+</head>
+<body class="playpen-sans-thai">
+
+<button id="toggleButton" class="toggle-button" onclick="toggleMode()">Dark</button>
+
+<div class="head">
+<div class="header">
+<img class="img-head" src="img/baner.png" alt="baner mushroom">
+</div>
+</div>
+
+<div class="navigator">
+<div class="menubar">
+<ul class="ul-menu">
+<li class="li-menu"><a class="active" href="index.html">home</a></li>
+<li class="li-menu"><a href="mushroom.html">ความหมายของเห็ด</a></li>
+<li class="li-menu"><a href="edible.html">เห็ดที่สามารถกินได้</a></li>
+<li class="li-menu"><a href="inedible.html">เห็ดที่ไม่สามารถกินได้</a></li>
+<li class="li-menu"><a href="precau.html">ข้อควรระวังเกี่ยวกับเห็ด</a></li>
+</ul>
+</div>
+</div>
+
+<div class="content">
+<p>รายวิชานี้เน้นศึกษาลักษณะทั่วไปของเห็ด รวมถึงชนิดของเห็ดที่พบในธรรมชาติ ทั้งเห็ดกินได้และเห็ดพิษที่พบได้บ่อยในประเทศไทย ผู้เรียนจะได้เรียนรู้วิธีการจำแนกเห็ดชนิดต่าง ๆ อย่างถูกต้อง เพื่อป้องกันการรับประทานเห็ดพิษซึ่งอาจเป็นอันตรายถึงชีวิต นอกจากนี้ รายวิชายังครอบคลุมถึงการรู้จักและระมัดระวังข้อควรปฏิบัติในการเก็บและบริโภคเห็ดอย่างปลอดภัย รวมทั้งการตอบสนองเมื่อพบเห็ดพิษ</p>
+<p>เนื้อหาหลักประกอบด้วย
+            ความรู้เบื้องต้นเกี่ยวกับเห็ด ประเภทของเห็ดและบทบาททางนิเวศวิทยา
+            ลักษณะสำคัญของเห็ดกินได้ที่นิยมรับประทานและประโยชน์ต่อสุขภาพ
+            ลักษณะและพิษของเห็ดพิษชนิดที่พบมาก รวมถึงอาการและผลกระทบจากการบริโภค
+            ข้อควรระวังและแนวทางการป้องกันการรับประทานเห็ดพิษ
+            ขั้นตอนและวิธีปฏิบัติเมื่อต้องเผชิญกับเหตุการณ์รับประทานเห็ดพิษ
+            การฝึกปฏิบัติการแยกแยะเห็ดชนิดต่าง ๆ ด้วยตนเองอย่างถูกต้องภายใต้การดูแลของผู้เชี่ยวชาญ</p>
+<p>รายวิชานี้เหมาะสำหรับผู้ที่สนใจในด้านการเก็บเห็ด การทำอาหารจากเห็ด หรือผู้ที่ต้องการความรู้เพื่อความปลอดภัยในการบริโภคเห็ดป่า รวมทั้งผู้ที่ทำงานด้านเกษตร ป่าไม้ หรือสุขภาพ</p>
+
+<img src="img/homeintro1.png" alt="baner mushroom" class="center-img">
+</div>
+
+<div class="footer">
+<p>เว็บไซต์นี้จัดทำเพื่อการศึกษา</p>
+<p>&copy; จัดทำโดย นายชัยวุฒิ หม่อมทา 11808 ธท.1/1 วิทยาลัยเทคโนโลยีวานิชบริหารธุรกิจ</p>
+</div>
+
+<script>
+function toggleMode() {
+document.body.classList.toggle("dark-mode");
+var button = document.getElementById("toggleButton");
+if (document.body.classList.contains("dark-mode")) {
+button.textContent = "Bright";
+} else {
+button.textContent = "Dark";
+}
+}
+</script>
+
+</body>
+</html>
